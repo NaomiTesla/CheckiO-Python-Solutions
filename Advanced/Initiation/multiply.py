@@ -1,3 +1,6 @@
+# Naomi Tesla
+# https://py.checkio.org/en/mission/multiply-intro/
+
 def mult_two(a: int, b: int) -> int:
     return a * b
 
