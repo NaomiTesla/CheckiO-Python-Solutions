@@ -2,9 +2,7 @@
 # https://py.checkio.org/en/mission/all-upper/
 
 def is_all_upper(text: str) -> bool:
-    if text == text.upper():
-        return True
-    return False
+    return text == text.upper()
 
 assert is_all_upper("ALL UPPER") == True
 assert is_all_upper("all lower") == False
