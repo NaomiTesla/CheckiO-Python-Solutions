@@ -1,6 +1,6 @@
 # Naomi Tesla
 # https://py.checkio.org/en/mission/cut-sentence/
-# Will be cleaned up and me more efficient later c:
+# Will be cleaned up and made more efficient later c:
 
 def cut_sentence(line: str, length: int) -> str:
     if length < len(line):
