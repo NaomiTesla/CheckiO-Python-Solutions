@@ -1,6 +1,6 @@
 # Naomi Tesla
 # https://py.checkio.org/en/mission/time-converter-12h-to-24h/
-# Very manual conversion of 12hr to 24hr that's clear without imports
+# Very manual conversion of 12hr to 24hr that's clear without imports, not too efficient, but also not rlly made to be :3
 
 def time_converter(time):
     if len(time) == 9:
