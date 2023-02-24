@@ -15,10 +15,5 @@ def unix_match(filename: str, pattern: str) -> bool:
     return filename == pattern
 
 
-print(unix_match('name.txt', 'name.exe'))
-print(unix_match('name.txt', '[!abc]name.txt'))  # False
-print(unix_match('1name.txt', '[!abc]name.txt'))  # True
-
-
 assert unix_match("log1.txt", "log[1234567890].txt") == True
 assert unix_match("log1.txt", "log[!1].txt") == False
