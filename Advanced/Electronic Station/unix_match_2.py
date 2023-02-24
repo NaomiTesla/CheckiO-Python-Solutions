@@ -11,10 +11,8 @@ def unix_match(filename: str, pattern: str) -> bool:
             return False
         elif '!' in pattern[1]:
             return match not in pattern[1][1:len(pattern[1])]
-        else:
-            return match in pattern[1]
-    else:
-        return filename == pattern
+        return match in pattern[1]
+    return filename == pattern
 
 
 print(unix_match('name.txt', 'name.exe'))
